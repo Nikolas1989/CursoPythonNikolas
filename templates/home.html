@@ -1,9 +1,42 @@
 <html>
     <head>
-        <title>Calipso Mania</title>
+        <title>{{nome}}</title>
+        <link rel="stylesheet" href="../static/css/estilo.css">
     </head>
     <body>
         <h1>Ola Joelma do Calipso</h1>
         <a href="/contato">Contato para shows</a>
-    </body>
+
+        
+                   
+                
+
+
+        <table>
+            
+            <thead>
+            
+                <tr>
+                    <th>nome</th>
+                    <th>sobrenome</th>
+                    <th>usuario</th>
+                    <th>senha</th>
+                </tr>
+            <tbody>
+                {% for a in lista %}
+                <tr>
+                    <td>{{a.nome}}</td>
+                    <td>{{a.sobrenome}}</td>
+                    <td>{{a.usuario}}</td>
+                    <td>{{a.senha}}</td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </thead>
+    </table>
+    
+</body>
 </html>
+                    
+                
+            
