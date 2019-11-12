@@ -7,24 +7,26 @@
     <title>{{nome}}</title>
 </head>     
 <body>
-    <a href="/cadastrar">Cadastrar Cervejas</a>
+    <a href="/cadastrar">Cadastrar Carros</a>
     <table>
         <thead>
             <tr>
-                <th>Nome</th>
-                <th>Tipo</th>
-                <th>Teor</th>
+                <th>marca</th>
+                <th>modelo</th>
+                <th>categoria</th>
+                <th>ano</th>
             </tr>
         </thead>
         <tbody>
             {% for c in lista %}
             <tr>
-                <td>{{ c[0] }}</td>
-                <td>{{ c[1] }}</td>
-                <td>{{ c[2] }}</td>
+                <td>{{ c.marca }}</td>
+                <td>{{ c.modelo }}</td>
+                <td>{{ c.categoria}}</td>
+                <td>{{ c.ano}}</td>
             </tr>
             {% endfor %}
         </tbody>
     </table>
 </body>
-</html>
+</html
