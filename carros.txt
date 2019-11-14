@@ -1,0 +1,8 @@
+Volvo;sedan;50%;58
+Volvo;sedan;50%;58
+Volvo;sedan;50%;58
+ad;asd;;sadad
+sdad;sadsad;adasd;asdasd
+sdad25151;sadsad;adasd;asdasd414
+as;ss;s;s
+ada;asd;asd;ad
